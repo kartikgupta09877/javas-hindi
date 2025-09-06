@@ -26,7 +26,7 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = { obj1, obj2 }
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 
-const obj3 = {...obj1, ...obj2} // spread tha th entire object 
+const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
 
 
@@ -46,11 +46,13 @@ const users = [
 ]
 
 users[1].email
-//console.log(Object.keys(tinderUser));//[ 'id', 'name', 'isLoggedIn' ]
-//console.log(Object.values(tinderUser));//[ '123abc', 'Sammy', false ]
-//console.log(Object.entries(tinderUser));//[ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
+console.log(tinderUser);
 
-//console.log(tinderUser.hasOwnProperty('isLoggedIn'));//true
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
 const course = {
